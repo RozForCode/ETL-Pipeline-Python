@@ -6,4 +6,30 @@ What are ETLs and how to create them?
     Orchestration tools like Apache Airflow and SSIS help schedule, monitor, and manage ETLs, often using Python or Spark to create custom workflows. In this course, Python will be used to build custom ETL workflows, covering all phases of the ETL process.
 
 ETL Overview 
--   
+-   Before creating an ETL pipeline, several key factors should be considered to ensure its efficiency and effectiveness. Using the example of a sports apparel company, H+ Sports, here are the considerations:
+
+    Pipeline Architecture and Tools
+
+    Evaluate available tools, required infrastructure, and associated costs.
+    Data Sources, Transformations, and Destinations
+
+    Identify data sources (e.g., databases, file systems, APIs) and destinations.
+    Define necessary transformations like cleaning, enriching, and aggregating.
+    Data Frequency and Volume
+
+    Decide on the frequency of data extraction: incremental vs. full load.
+    Full loads are preferred for:
+    Data cleaning and refreshing.
+    Simplifying schema updates.
+    Maintenance simplicity.
+    Initial setup or migration.
+    Data Volume and Velocity
+
+    Assess the amount of data and its rate of arrival and processing needs.
+    Scalability and Performance
+
+    Plan for increased data volume and velocity over time.
+    Optimize for performance and scalability to handle future growth.
+    Considering these factors ensures the right decisions are made, appropriate tools are chosen, and the ETL pipeline is built to be robust and scalable.
+
+Exploring data with Pandas and SQL
