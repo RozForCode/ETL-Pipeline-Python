@@ -1,0 +1,9 @@
+What are ETLs and how to create them?
+-    Data in organizations is often spread across various sources like spreadsheets, databases, and APIs. A data pipeline consolidates this data into a unified format for analysis. A specific type of data pipeline is ETL (Extract, Transform, Load), which moves data through three key phases:
+    Extract: Data is retrieved from sources like spreadsheets, APIs, or databases using tools like Python, AWS Glue, or Azure Data Factory.
+    Transform: Data is cleaned, enriched, aggregated, and standardized to remove errors and make it analysis-ready. Tools like Python, Spark, and Azure Data Factory are common.
+    Load: Transformed data is loaded into target systems like data warehouses or data lakes for use by analysts or machine learning models. Tools include Python, Spark, and Azure Data Factory.
+    Orchestration tools like Apache Airflow and SSIS help schedule, monitor, and manage ETLs, often using Python or Spark to create custom workflows. In this course, Python will be used to build custom ETL workflows, covering all phases of the ETL process.
+
+ETL Overview 
+-   
