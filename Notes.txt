@@ -45,3 +45,24 @@ Exploring data with Pandas and SQL
     It can import data from various sources, such as CSV, Excel, JSON, SQL databases, etc., using methods like pd.read_csv or pd.read_excel.
     It allows you to explore, clean, and transform data, making it highly versatile for data preparation tasks.
     Pandas is a core tool for building ETL workflows, and further exploration of its capabilities is essential for effective data manipulation.
+
+Understanding Data
+-   Exploring data is a crucial step in data warehousing and ETL creation, as it ensures familiarity with the dataset's structure, format, data types, and relationships. Key steps include:
+
+    Reasons for Data Exploration:
+
+    Understand data structure and quality (e.g., duplicates, inconsistencies, missing values).
+    Identify required transformations and business logic.
+    Determine ETL structuring and standardization needs (e.g., converting time formats).
+    Pandas Methods for Data Exploration:
+
+    df.head() and df.tail(): View the first and last rows of the dataset.
+    df.shape: Retrieve the number of rows and columns in the dataset.
+    df.info(): Summarize data structure, including null values, data types, and memory usage.
+    df.duplicated(): Identify duplicate rows, returning a Boolean series.
+    Insights from Exploration:
+
+    Sample data includes five rows and seven columns.
+    The "time of purchase" column requires transformation to datetime format.
+    No duplicate rows were found in the dataset.
+    Pandas offers many additional methods for exploring data. 
