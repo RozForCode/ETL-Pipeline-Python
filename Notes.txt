@@ -83,3 +83,30 @@ Loading data from different sources
     Use pd.read_json to load JSON files.
     Flatten nested JSON structures using pd.json_normalize.
     Pandas supports reading many other data formats. Refer to the official documentation for a complete list of supported formats and functionalities.
+
+Cleaning, processing and transforming data
+-   Data transformation is a crucial step in the ETL process, focusing on cleaning, standardizing, and preparing raw data for the target system to ensure quality and consistency. Key points include:
+
+    Importance of Data Transformation:
+
+    Ensures data quality and consistency.
+    Prevents faulty reporting that could lead to financial losses.
+    Scenarios Highlighting Transformation Needs:
+
+    Deduplication: Removes duplicate entries, e.g., when a customer’s information is recorded twice by different sales teams.
+    Standardization: Converts data (e.g., currencies) into a consistent format for uniform analysis.
+    Aggregation: Combines data from multiple sources or teams into a single dataset for easier analysis of overall performance, revenue, and trends.
+    Filtering: Removes unwanted or irrelevant data.
+    Cleaning: Identifies and eliminates errors and inconsistencies.
+    Transformation Techniques:
+
+    Deduplication: Removes duplicate records.
+    Standardization/Integration: Aligns data into a common format or structure.
+    Aggregation: Summarizes and consolidates large datasets into meaningful representations.
+    Filtering: Selects relevant data while excluding unwanted data.
+    Cleaning: Fixes data errors and inconsistencies.
+    Role of Data Transformation:
+
+    Enhances data quality through cleaning, integration, validation, and standardization.
+    Prepares data for reliable reporting and analysis.
+    This step is essential for accurate and actionable insights in the ETL process.
