@@ -67,4 +67,19 @@ Understanding Data
     No duplicate rows were found in the dataset.
     Pandas offers many additional methods for exploring data. 
 Loading data from different sources
--   
+-   Organizations manage data from various sources (e.g., SQL/NoSQL databases, APIs, JSON files, Excel, CSV) in diverse formats like XML, Parquet, JSON, and TXT. The Pandas library simplifies loading and handling data from these sources. Key methods include:
+
+    Loading CSV Files:
+
+    Use pd.read_csv to load CSV files.
+    Customize parameters like file path, delimiter, header, index column, etc.
+    If headers are missing, specify header=None to avoid misinterpretation.
+    Loading Excel Files:
+
+    Use pd.read_excel to load Excel files.
+    Parameters include file path, sheet name, headers, and more.
+    Loading JSON Files:
+
+    Use pd.read_json to load JSON files.
+    Flatten nested JSON structures using pd.json_normalize.
+    Pandas supports reading many other data formats. Refer to the official documentation for a complete list of supported formats and functionalities.
