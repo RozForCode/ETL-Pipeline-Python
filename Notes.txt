@@ -66,3 +66,5 @@ Understanding Data
     The "time of purchase" column requires transformation to datetime format.
     No duplicate rows were found in the dataset.
     Pandas offers many additional methods for exploring data. 
+Loading data from different sources
+-   
