@@ -33,3 +33,15 @@ ETL Overview
     Considering these factors ensures the right decisions are made, appropriate tools are chosen, and the ETL pipeline is built to be robust and scalable.
 
 Exploring data with Pandas and SQL
+-   The Pandas library is a popular open-source Python library for data manipulation and analysis. It provides easy-to-use functions for working with data and supports two main data structures:
+
+    Series: One-dimensional arrays with labeled data, similar to a column in Excel.
+    DataFrames: Two-dimensional tables with rows and columns, similar to Excel spreadsheets or SQL tables.
+    To use Pandas:
+
+    Install it using pip and import it into your Python script with import pandas as pd.
+    Key Features of Pandas:
+
+    It can import data from various sources, such as CSV, Excel, JSON, SQL databases, etc., using methods like pd.read_csv or pd.read_excel.
+    It allows you to explore, clean, and transform data, making it highly versatile for data preparation tasks.
+    Pandas is a core tool for building ETL workflows, and further exploration of its capabilities is essential for effective data manipulation.
