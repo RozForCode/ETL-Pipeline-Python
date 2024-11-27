@@ -5,7 +5,7 @@ sample_excel_data.reset_index(drop=True)
 sample_excel_data.rename(columns={"index":"Index"},inplace=True)
 sample_excel_data = sample_excel_data.reset_index(drop=True)
 
-# sample_excel_data = sample_excel_data[sample_excel_data.duplicated(['Unnamed: 3'],keep='first')]
+sample_excel_data = sample_excel_data[sample_excel_data.duplicated(['Unnamed: 3'],keep='first')]
 print(sample_excel_data)
 
 
